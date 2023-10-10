@@ -1,6 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
-
+//este clasa ce contine mainul, meniul si un array de jucatori
 public class Echipa
 {
 

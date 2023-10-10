@@ -1,4 +1,6 @@
-public class Jucator {
+public class Jucator {//este clasa ce incapsuleaza conceptul de jucator, ce contine
+    //numele jucatorului, postul pe care joaca, numarul de pe tricou si varsta acestuia
+    //alaturi de niste metode get/set si o metoda pentru a numara cati jucatori sunt pe fiecare post
 
     private String nume="";
     private String post="";

@@ -6,7 +6,9 @@ public class Echipa
 
     public static void main(String[] args)
     {
+        //se creaza arrayList-ul de jucatori.
         ArrayList<Jucator> jucator = new ArrayList<Jucator>();
+        //meniul
         System.out.println("Optiuni: ");
         System.out.println("1. FC Cojeasca cumpara jucator.");
         System.out.println("2. Lista jucatorilor.");
@@ -72,7 +74,7 @@ public class Echipa
                         break;
                     }
                 case 5:
-                {
+                {   //se afiseaza cati jucatori sunt pe fiecare post
                     for (int i=0;i<Jucator.getNumarJucatori();i++)
                         jucator.get(i).posturiJucatori();
                     System.out.println("Numarul de atacanti: " + Jucator.atacanti);

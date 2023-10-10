@@ -54,7 +54,7 @@ public class Jucator {
     {
         this.varsta=varsta;
     }
-    //numara numarul de jucatori pe fiecare post;
+    //numara cati jucatori sunt pe fiecare post;
     public void posturiJucatori(){
             if(post.equals("atacant"))
                 atacanti++;
